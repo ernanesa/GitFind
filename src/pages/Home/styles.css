@@ -1,0 +1,110 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    background-color: #1c1e22;
+    min-height: 100vh;
+}
+
+.info {
+    width: 60%;
+    margin: 40px 0;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.user-input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 22px;
+    margin-right: 8px;
+}
+
+.user-input {
+    width: 70%;
+    max-width: 250px;
+    border: 1px solid #888;
+    background: #333;
+    color: #fff;
+}
+
+button {
+    background-color: #2D333B;
+    color: #fff;
+    border: 1px solid #999;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 2px solid #E5E5E5;
+}
+
+.profile-info h3 {
+    color: #E5E5E5;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profile-info span {
+    color: #888;
+    font-size: 14px;
+    display: block;
+}
+
+.profile-info p {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.repositories-title {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #E5E5E5;
+}
+
+.repositorio {
+    color: #E5E5E5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.repository-link {
+    display: block;
+    color: #61dafb;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #444;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.repository-link:hover {
+    color: #ffffff;
+    transform: translateX(5px);
+}
