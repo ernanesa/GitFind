@@ -59,7 +59,7 @@ function App() {
               <ItemList
                 key={repo.id}
                 title={<a href={`https://github.com/${user}/${repo.name}`} target="_blank" rel="noopener noreferrer" className="repository-link">{repo.name}</a>}
-                description={repo.description}
+                description={<span className="repository-description">{repo.description}</span>}
               />
             ))}
           </div>
